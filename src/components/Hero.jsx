@@ -17,7 +17,8 @@ export default function Hero() {
         <div className="hero-grid">
           <div>
             <h1 className="hero-name">
-              Hey, I'm {profile.firstName} —<br />
+              Hey 👋, I'm<br />
+               {profile.firstName} —
               <span className="hl">{profile.title}</span>
             </h1>
             <p className="hero-role">{profile.role}</p>
@@ -37,7 +38,7 @@ export default function Hero() {
             <div className="hero-photo-inner">
               {!errored ? (
                 <img
-                  src="/images/profile.jpg"
+                  src="/images/Zia Un Nabi Janjua 1.png"
                   alt={profile.name}
                   onError={() => setErrored(true)}
                 />

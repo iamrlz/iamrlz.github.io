@@ -8,15 +8,15 @@
 // ============================================================
 
 export const profile = {
-  firstName: "Zia",
+  firstName: "Zia Un Nabi J.",
   name: "Muhammad Zia Un Nabi Janjua",
   handle: "iamrlz",
-  title: "Cloud & Full-Stack Developer",
+  title: "Cloud Enthusiast, Community Builder & Open-Source Advocate⭐",
   location: "Rawalpindi / Islamabad, Pakistan", // VERIFY
   role: "I build on the cloud, mentor student developers, and lead communities that help people ship their first project.",
   bio: [
-    "I'm a cloud-focused developer and community builder, certified on both Google Cloud and Microsoft Azure.",
-    "I founded and led GDSC SZABIST Islamabad, the campus's Google Developer Student Club, and I'm a GitHub Campus Expert and Gold Microsoft Learn Student Ambassador.",
+    "I'm a cloud-focused developer, open-source advocate, and community builder passionate about cloud infrastructure, security, DevOps, and developer tools. I'm certified in Google Cloud and Microsoft Azure.",
+    "I founded and led Google Developer Student Club (GDSC), serve as a GitHub Campus Expert, and recogniz as a Gold Microsoft Student Ambassador, where I organized technical events, mentored students, and helped grow thriving developer communities.",
     "I like building things at the intersection of cloud infrastructure, security, and developer tooling — and helping other students do the same.",
   ],
   quote: "Tech communities grow one person you helped get unstuck at a time.",
