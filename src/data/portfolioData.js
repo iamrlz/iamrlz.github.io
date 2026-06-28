@@ -33,18 +33,27 @@ export const profile = {
 // Shown as the colorful "badge wall" — your real titles & certs,
 // displayed like an earned collection. Add/remove freely.
 export const achievements = [
-  { name: "GitHub Campus Expert", issuer: "GitHub", icon: "★", color: "blue" },
-  { name: "Gold Microsoft Learn Student Ambassador", issuer: "Microsoft", icon: "M", color: "coral" },
-  { name: "Founder & First Lead, GDSC SZABIST Islamabad", issuer: "Google Developer Student Clubs", icon: "G", color: "mint" },
+  { name: "GitHub Campus Expert", issuer: "GitHub", icon: "🚩", color: "ink-soft" },
+  { name: "Gold Microsoft Student Ambassador", issuer: "Microsoft", icon: "🥇", color: "mint" },
+  { name: "Google Student Devloper Club Lead (22-23)", issuer: "Google", icon: "🚀", color: "violet" },
+  { name: "Microsoft Excel Student Ambassador", issuer: "Microsoft", icon: "⚙️", color: "coral" },
   { name: "Associate Cloud Engineer", issuer: "Google Cloud", icon: "☁", color: "sun" },
-  { name: "Azure Certified", issuer: "Microsoft", icon: "A", color: "violet" }, // VERIFY exact cert name/level
+  { name: "Azure Fundamentals", issuer: "Microsoft", icon: "☁", color: "blue" }, 
+  { name: "GitHub Foundations", issuer: "GitHub", icon: "🌟", color: "mint-soft" }
 ];
 
 export const skills = {
-  "cloud & devops": ["Google Cloud Platform", "Microsoft Azure", "CI/CD", "Linux"],
-  "languages": ["JavaScript", "Python", "PHP", "SQL"],
-  "frameworks & tools": ["React", "Next.js", "FastAPI", "Node.js"],
-  "security & community": ["Zero Trust principles", "DevRel / community building", "Public speaking", "Technical mentoring"],
+  "cloud & devops": ["Google Cloud Platform",
+    "Microsoft Azure",
+    "Cloud Security",
+    "CI/CD",
+    "Linux",
+    "Networking",
+    "Docker"],
+  "ai & automation": ["Generative AI", "Prompt Engineering", "AI Agents", "LLMs", "Workflow Automation", "GitHub Copilot"],
+  "public sector & digital transformation": ["E-Governance", "Public Sector Technology", "Digital Transformation", "GIS & Geospatial Data", "Field Operations"],
+  "open source & community": ["Open Source", "DevRel", "Mentoring", "Public Speaking", "Workshops", "Community Building"],
+  "leadership & collaboration": ["Project Management", "Leadership", "Problem Solving", "Communication", "Decision Making", "Strategic Planning"],
 };
 
 export const projects = [
@@ -73,10 +82,16 @@ export const projects = [
 export const gallery = [
   // Drop matching image files into /public/images/ — these are just
   // labels + captions, the actual photos are added by you later.
-  { file: "profile.jpg", caption: "profile photo" },
-  { file: "speaking.jpg", caption: "speaking / community event" },
-  { file: "hackathon.jpg", caption: "hackathon / GDSC event" },
-  { file: "team.jpg", caption: "team / project photo" },
+  { file: "Zia Un Nabi Janjua 5.jpg", caption: "workshop / GDSC event" },
+  { file: "Zia Un Nabi Janjua 2.JPG", caption: "speaking / TechRise'24 Gilgit" },
+  { file: "Zia Un Nabi Janjua 4.JPG", caption: "speaking / Dev Jigra" },
+  { file: "Zia Un Nabi Janjua 3.jpg", caption: "hackathon / GDSC event" },
+  { file: "Zia Un Nabi Janjua 7.png", caption: "speaking / community event" },
+  { file: "Zia Un Nabi Janjua 6.jpg", caption: "hands-on / ZABCON" },
+  { file: "Zia Un Nabi Janjua 10.jpg", caption: "MLSA / community event" },
+  { file: "Zia Un Nabi Janjua 9.jpg", caption: "GiHub Campus Expert Pose" },
+  { file: "Zia Un Nabi Janjua 8.JPG", caption: "KCD / community event" },
+  { file: "Zia Un Nabi Janjua 11.png", caption: "team / meeting photo" },
 ];
 
 export const education = [

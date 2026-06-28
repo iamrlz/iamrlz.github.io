@@ -34,7 +34,7 @@ export default function Nav() {
   return (
     <div className="nav-wrap">
       <nav className="nav-pill" aria-label="Section navigation">
-        <span className="nav-logo">{profile.firstName}.</span>
+        <span className="nav-logo">{profile.firstName}</span>
         {TABS.map((t) => (
           <a
             key={t.id}

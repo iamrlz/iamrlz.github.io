@@ -24,7 +24,7 @@ export default function Gallery() {
       eyebrow="Snapshots"
       eyebrowColor="violet"
       title="Photos"
-      subtitle="Drop your photos into /public/images/ using the filenames in src/data/portfolioData.js — they'll appear here automatically."
+      subtitle="From hackathons to conferences—exploring cloud technologies, open source, and community impact"
     >
       <div className="gallery-grid">
         {gallery.map((g) => (

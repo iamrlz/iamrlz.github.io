@@ -48,7 +48,7 @@ export default function Hero() {
                 </span>
               )}
             </div>
-            <div className="hero-photo-sticker">👋 Hi there</div>
+            <div className="hero-photo-sticker">👋 Asalaam O Alikum</div>
           </div>
         </div>
       </div>
