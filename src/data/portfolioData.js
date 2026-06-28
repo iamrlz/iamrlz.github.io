@@ -15,12 +15,12 @@ export const profile = {
   location: "Rawalpindi / Islamabad, Pakistan", // VERIFY
   role: "I build on the cloud, mentor student developers, and lead communities that help people ship their first project.",
   bio: [
-    "I'm a cloud-focused developer, open-source advocate, and community builder passionate about cloud infrastructure, security, DevOps, and developer tools. I'm certified in Google Cloud and Microsoft Azure.",
+    "I'm a cloud-focused developer, open-source advocate, and community builder with experience across cloud technologies and a background in the public sector. I'm passionate about cloud infrastructure, security, DevOps, digital transformation, and developer tools. I'm certified in Google Cloud and Microsoft Azure.",
     "I founded and led Google Developer Student Club (GDSC), serve as a GitHub Campus Expert, and recogniz as a Gold Microsoft Student Ambassador, where I organized technical events, mentored students, and helped grow thriving developer communities.",
     "I like building things at the intersection of cloud infrastructure, security, and developer tooling — and helping other students do the same.",
   ],
   quote: "Tech communities grow one person you helped get unstuck at a time.",
-  email: "your-email@example.com", // EDIT ME
+  email: "Drop me a email :)", // EDIT ME
   resumeUrl: "#", // EDIT ME: link to a hosted PDF resume if you have one
   social: {
     github: "https://github.com/iamrlz",
@@ -58,24 +58,24 @@ export const skills = {
 
 export const projects = [
   {
-    name: "ChatbotShield",
+    name: "Build applications with GitHub Copilot agent mode octofit-tracker",
     description:
-      "A zero-trust, security-first AI chatbot system. End-to-end encrypted chat (RSA & AES), JWT session management, optional MFA, and role-based access control with an admin dashboard.",
-    tech: ["Next.js", "FastAPI", "Python", "JWT", "RBAC"],
-    link: "#", // EDIT ME: paste the GitHub repo URL
+      "Bulid a fitness tracking application using GitHub Copilot Agent Mode. Leveraged AI-assisted development to generate, refine, and ship features from natural language prompts, demonstrating modern AI-powered software engineering workflows.",
+    tech: ["Shell", "GitHub Actions", "Copilot Agent Mode", "CI/CD"],
+    link: "https://github.com/iamrlz/skills-build-applications-w-copilot-agent-mode-today", // EDIT ME: paste the GitHub repo URL
   },
   {
-    name: "Bank Management System",
+    name: "Financial Fraud Prevention",
     description:
-      "A bank management system covering account handling and core banking operations, built with a classic HTML/PHP/MySQL stack.",
-    tech: ["HTML", "PHP", "MySQL"],
-    link: "https://github.com/iamrlz/bank-management-system",
-  },
-  {
-    name: "Your next project",
-    description: "Swap this card out — add a project, a one-line pitch, the stack you used, and a link.",
-    tech: ["Add", "Your", "Stack"],
+      "A Financial Fraud Prevention system that leverages Machine Learning to detect and classify fraudulent financial transactions in real time. Built a responsive web application with React and Node.js while deploying AI models and backend services on Microsoft Azure for scalability, security, and high availability.",
+    tech: ["React", "Node.js", "Python", "Azure ML", "Azure App service"],
     link: "#",
+  },
+  {
+    name: "ZABBOT – AI Chatbot for SZABIST Students",
+    description: "Built an AI-powered chatbot to help SZABIST students quickly access academic resources, event information, class schedules, faculty details, and departmental services. Integrated Microsoft Azure AI and Language Cognitive Services to deliver intelligent, context-aware responses through an intuitive web interface.",
+    tech: ["Microsoft Azure AI", "Azure Cognitive Services", "GitHub"],
+    link: "https://github.com/iamrlz/zabbot",
   },
 ];
 
@@ -99,7 +99,14 @@ export const education = [
     school: "SZABIST University",
     degree: "Bachelor's in Computer Science", // VERIFY
     period: "Graduated", // EDIT ME: add years, e.g. "2021 – 2025"
-    notes: "Founded and served as first lead of GDSC SZABIST Islamabad (Google Developer Student Club).",
+    notes: "Founded and served as the first Lead of the Google Developer Student Club (GDSC) at SZABIST Islamabad and represented the Microsoft Learn Student Ambassadors program, impacting 1200+ students through technical workshops, hands-on sessions, hackathons, and community events.",
+    color: "blue",
+  },
+  {
+    school: "Army Public School & College",
+    degree: "Intermediate in Computer Science", // VERIFY
+    period: "Pass Out", // EDIT ME: add years, e.g. "2021 – 2025"
+    notes: "Led the college's computer lab, conducted live demonstrations on programming and computer applications, and mentored students during practical sessions while assisting faculty with technical activities",
     color: "blue",
   },
 ];
@@ -113,9 +120,9 @@ export const blogPosts = [
     link: "https://medium.com/@iamrlz/how-to-become-a-github-campus-expert-73170a2c0c42",
   },
   {
-    title: "Your next post",
-    date: "draft",
-    excerpt: "Swap this out with your latest Medium/Dev.to/Hashnode post — title, date, one-line excerpt, link.",
-    link: "#",
+    title: "5 Free Cloud Certification Courses",
+    date: "Sep 2022",
+    excerpt: "A must have cloud certifications you need to kick-start your career in the world of cloud.",
+    link: "https://medium.com/@iamrlz/5-free-cloud-certification-courses-2022-c20cf8191162",
   },
 ];
